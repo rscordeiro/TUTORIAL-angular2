@@ -1,0 +1,8 @@
+<button class="btn btn-primary" (click)="onButtonClick()"> {{ buttonName }} </button>
+<p *ngIf="displayDetails">Secret password = tuna</p>
+<p 
+*ngFor="let countLog of countLogs; let i = index"
+[ngStyle]="{'background-color': i >= 4 ? 'blue' : 'white'}" 
+[ngClass]="{fifth: i >= 4}"
+> {{ countLogs[i] }} </p>
+<hr>

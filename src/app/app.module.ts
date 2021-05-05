@@ -8,6 +8,8 @@ import { ServersComponent } from './servers/servers.component';
 import { WarningAlertComponent } from './warning-alert/warning-alert.component'
 import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import { UsernameFieldComponent } from './username-field/username-field.component';
+import { ThirdTaskComponent } from './third-task/third-task.component';
+import { ThirdTaskCountComponent } from './third-task-count/third-task-count.component';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import { UsernameFieldComponent } from './username-field/username-field.componen
     ServersComponent,
     WarningAlertComponent,
     SuccessAlertComponent,
-    UsernameFieldComponent
+    UsernameFieldComponent,
+    ThirdTaskComponent,
+    ThirdTaskCountComponent
   ],
   imports: [
     BrowserModule,
